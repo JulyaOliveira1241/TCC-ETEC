@@ -1,0 +1,37 @@
+
+<---------ARQUIVO PRA AJUDAR VOCêS------------->
+-Bom, eu estou ultilizando pra testar tudos os arquivos: pesquisarTEST.php e o movieTEST.php eles 2 estão funcionando 100%.
+-index.php esta desatulizado
+
+-------API's:----------
+ 
+API usada na "index.php" pra fazer a galeria de filmes e series: https://api.themoviedb.org/3/discover/movie?api_key=d0c24266ec2ff53c34cff3cdf84890be&append_to_response=videos,images&language=pt-BR
+Pegar Imagens POSTER: https://api.themoviedb.org/3/configuration?api_key=d0c24266ec2ff53c34cff3cdf84890be&language=pt-BR
+
+OBS: FAZER UM ORGANIZADOR DE URL, PARA HREF DO BANNER REDIRECIONAR PARA O DETALHE DO FILME CLICADO. (JÁ FOI FEITO)
+ 
+API POSSIVEL DE SER ULTILIZADA: https://api.themoviedb.org/3/movie/{movie_id}?api_key=d0c24266ec2ff53c34cff3cdf84890be&language=pt-BR
+DEVE CAPTURAR O ID DO FILME. PARA REDIRECIONARAR CORRETAMENTE. (retira as chaves da URL)
+
+PEGAR ID SERIE: https://api.themoviedb.org/3/tv/{serie_id}?api_key=d0c24266ec2ff53c34cff3cdf84890be&language=pt-BR
+
+PEGAR TRAILER YOUTUBE: https://api.themoviedb.org/3/movie/{movie_id}/videos?api_key=d0c24266ec2ff53c34cff3cdf84890be&language=pt-BR
+
+FILME RECOMENDADO:https://api.themoviedb.org/3/movie/{movie_id}/recommendations?api_key=d0c24266ec2ff53c34cff3cdf84890be&language=pt-BR&page=1
+
+PLATAFORMA DE STRAMING DO FILME: https://api.themoviedb.org/3/movie/{movie_id}watch/providers?api_key=d0c24266ec2ff53c34cff3cdf84890be&language=pt-BR&include_adult=false&append_to_response=network,images
+
+------------------------------------------------------------------------
+
+OBS: {Serie_id} ou {movie_id} vira uma variavel, quando filme ou serie é selecionado ele substitui o id da URL da API pelo id do filme selecionado.
+OBS2: Na API movie quer dizer filmes (obviamente), mas as series é chamada de TV.
+
+------------------------------------------------------------------------
+
+
+LINK PARA TODAS AS API's: https://developers.themoviedb.org/3/getting-started/introduction
+OBS: Para acessar as API's é necessario fazer login. Ultilizem o meu porque se nao, voces vao ter que pedir pro site TMDB liberar pra voces a API.
+
+-----LOGIN-------
+Login:BrennoLourran
+Senha:16171828b
